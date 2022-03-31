@@ -9,7 +9,7 @@
   </head>
   <body class="text-white font-body">
     <div
-      class="bg-body-background min-w-full min-h-screen flex flex-col items-center justify-between overflow-hidden"
+      class="bg-body-background bg-no-repeat bg-cover min-w-full min-h-screen flex flex-col items-center justify-between overflow-hidden"
     >
       <!-- upper nav bar -->
       <nav class="flex justify-between h-20 items-center w-full">
@@ -51,7 +51,7 @@
         </div>
       </div>
       <!-- middle part -->
-      <div class="h-72 w-full flex justify-center items-center">
+      <div class="w-full flex justify-center items-center">
         <div
           class="w-8 h-8 flex justify-center items-center rounded-full bg-black bg-opacity-60"
         >
@@ -70,6 +70,7 @@
         </div>
         <div class="link-btn">
           <img
+            class="rounded-r-xl rounded-l-xl"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnzjC6RalAw5KJVTShXR5_igHY31lHsHiJjw_ziHIzlwK-3shXbSWSNSUEDLnaoBe1RoE&usqp=CAU"
             alt="Notion"
           />
@@ -128,7 +129,7 @@
       <footer
         class="flex w-full h-14 justify-between items-center bg-black opacity-70"
       >
-        <div class="w-3/6 flex justify-around pl-4">
+        <div class="w-3/5 flex justify-around pl-4">
           <a href="#">My Feed</a>
           <a href="#">War in Ukraine</a>
           <a href="#">Coronavirus</a>
@@ -138,7 +139,7 @@
           <a href="#">Europe</a>
           <a href="#">Middle East</a>
         </div>
-        <div class="flex w-3/6 justify-center items-center">
+        <div class="flex w-2/5 justify-evenly items-center">
           <div class="flex">
             <div
               class="flex pl-2 pr-2 pt-1 pb-1 rounded-2xl w-32 border-footer-border-width justify-between items-center border-opacity-60 border-white h-2/4"
@@ -147,24 +148,26 @@
               <p>Personalize</p>
             </div>
             <div
-              class="flex pl-2 pr-2 pt-1 pb-1 rounded-2xl w-40 border-footer-border-width justify-between items-center border-opacity-60 border-white h-2/4"
+              class="flex pl-2 pr-2 pt-1 pb-1 ml-2 rounded-2xl w-40 border-footer-border-width justify-between items-center border-opacity-60 border-white h-2/4"
             >
               <p>Heading only</p>
               <ion-icon name="chevron-down-outline"></ion-icon>
             </div>
           </div>
-          <div
-            class="border-blue-400 border-footer-border-width p-1 rounded-md flex justify-center items-center"
-          >
-            <ion-icon
-              class="text-blue-400 w-5 h-5"
-              name="grid-outline"
-            ></ion-icon>
-          </div>
-          <div
-            class="border-white border-footer-border-width p-1 rounded-md flex justify-center items-center"
-          >
-            <span class="iconify w-5 h-5" data-icon="bx:menu-alt-left"></span>
+          <div class="flex">
+            <div
+              class="border-blue-400 border-footer-border-width p-1 rounded-md flex justify-center items-center"
+            >
+              <ion-icon
+                class="text-blue-400 w-5 h-5"
+                name="grid-outline"
+              ></ion-icon>
+            </div>
+            <div
+              class="border-white ml-2 border-footer-border-width p-1 rounded-md flex justify-center items-center"
+            >
+              <span class="iconify w-5 h-5" data-icon="bx:menu-alt-left"></span>
+            </div>
           </div>
         </div>
       </footer>
