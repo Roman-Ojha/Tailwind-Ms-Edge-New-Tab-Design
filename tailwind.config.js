@@ -12,6 +12,9 @@ module.exports = {
       colors: {
         "input-color": "#4a4a4a",
       },
+      borderWidth: {
+        "footer-border-width": "1px",
+      },
     },
   },
   plugins: [],
