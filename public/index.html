@@ -7,30 +7,30 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <title>MS Edge New Tab</title>
   </head>
-  <body class="text-white">
+  <body class="text-white font-body">
     <div class="bg-body-background min-w-full min-h-screen">
       <!-- upper nav bar -->
-      <nav class="border-red-700 border-2">
-        <div>
-          <ion-icon name="apps-outline"></ion-icon>
-          <ion-icon name="cloudy-night-outline"></ion-icon>
+      <nav class="flex justify-between h-20 items-center">
+        <div class="flex ml-10">
+          <ion-icon class="nav-icon" name="apps-outline"></ion-icon>
+          <ion-icon class="nav-icon" name="cloudy-night-outline"></ion-icon>
+          <p class="text-2xl">19</p>
         </div>
-        <div>
-          <ion-icon name="notifications-outline"></ion-icon>
-          <ion-icon name="settings-outline"></ion-icon>
+        <div class="flex mr-10">
+          <ion-icon class="nav-icon" name="notifications-outline"></ion-icon>
+          <ion-icon class="nav-icon" name="settings-outline"></ion-icon>
         </div>
       </nav>
       <!-- Search Bar container -->
-      <div>
+      <div class="w-full flex justify-center">
         <div>
-          <div>
-            <input type="text" placeholder="Search the web" />
-            <img
-              src="https://brandlogos.net/wp-content/uploads/2021/02/bing-logo.png"
-              alt="bing"
-            />
-            <ion-icon name="search-outline"></ion-icon>
-          </div>
+          <input type="text" placeholder="Search the web" class="w-3/6" />
+          <img
+            src="https://brandlogos.net/wp-content/uploads/2021/02/bing-logo.png"
+            alt="bing"
+            class="w-8 h-8"
+          />
+          <ion-icon class="nav-icon" name="search-outline"></ion-icon>
         </div>
       </div>
       <!-- middle part -->
@@ -38,10 +38,43 @@
         <div>
           <ion-icon name="search-outline"></ion-icon>
         </div>
-        <p>This bright little fish spend its life nestled</p>
+        <p>This bright little fish spend its life nestled...</p>
       </div>
-
       <!-- web Link part -->
+      <div>
+        <div>
+          <img src="" alt="youtube" />
+        </div>
+      </div>
+      <!-- footer -->
+      <footer>
+        <div>
+          <a href="#">My Feed</a>
+          <a href="#">War in Ukraine</a>
+          <a href="#">Coronavirus</a>
+          <a href="#">Africa</a>
+          <a href="#">Asia</a>
+          <a href="#">Australasia</a>
+          <a href="#">Europe</a>
+          <a href="#">Middle East</a>
+        </div>
+        <div>
+          <div>
+            <span class="iconify" data-icon="cil:pen"></span>
+            <p>Personalize</p>
+          </div>
+          <div>
+            <p>Heading only</p>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </div>
+        </div>
+        <div>
+          <ion-icon name="grid-outline"></ion-icon>
+        </div>
+        <div>
+          <span class="iconify" data-icon="bx:menu-alt-left"></span>
+        </div>
+      </footer>
     </div>
     <script
       type="module"
@@ -51,5 +84,6 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script src="https://code.iconify.design/2/2.2.0/iconify.min.js"></script>
   </body>
 </html>
