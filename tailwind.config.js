@@ -9,6 +9,9 @@ module.exports = {
       fontFamily: {
         body: ["Nunito", "sans-serif"],
       },
+      colors: {
+        "input-color": "#4a4a4a",
+      },
     },
   },
   plugins: [],

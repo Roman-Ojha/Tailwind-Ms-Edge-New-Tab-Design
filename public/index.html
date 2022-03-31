@@ -23,14 +23,29 @@
       </nav>
       <!-- Search Bar container -->
       <div class="w-full flex justify-center">
-        <div>
-          <input type="text" placeholder="Search the web" class="w-3/6" />
-          <img
-            src="https://brandlogos.net/wp-content/uploads/2021/02/bing-logo.png"
-            alt="bing"
-            class="w-8 h-8"
-          />
-          <ion-icon class="nav-icon" name="search-outline"></ion-icon>
+        <div class="w-full flex flex-col items-center">
+          <div
+            class="flex h-14 w-3/6 bg-input-color items-center justify-between rounded-3xl"
+          >
+            <input
+              type="text"
+              placeholder="Search the web"
+              class="w-4/5 bg-input-color ml-4"
+            />
+            <img
+              src="https://brandlogos.net/wp-content/uploads/2021/02/bing-logo.png"
+              alt="bing"
+              class="w-8 h-8"
+            />
+            <ion-icon class="nav-icon" name="search-outline"></ion-icon>
+          </div>
+          <div class="flex w-3/6 justify-start mt-1 items-center">
+            <p class="text-sm">get help with file exp...</p>
+            <span
+              class="iconify w-6 h-6 ml-5"
+              data-icon="carbon:overflow-menu-horizontal"
+            ></span>
+          </div>
         </div>
       </div>
       <!-- middle part -->
